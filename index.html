@@ -12,7 +12,7 @@
       padding: 50px;
       background-color: #FFF;
     }
-    div div div{
+    .letter{
       padding: 10px;
       margin: 10px;
       background-color: #ffde00;
@@ -33,7 +33,7 @@
     var Letter = React.createClass({
       render: function(){
         return(
-          <div>
+          <div className="letter">
             {this.props.children}
           </div>
         );
